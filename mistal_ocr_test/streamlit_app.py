@@ -43,13 +43,23 @@ You will be given the OCR text for three consecutive pages in a "sliding window"
     *   If you see a full, self-contained question on the `front_page` or `back_page`, you MUST ignore it. They are only reference material.
 
 5.  **What to Extract (Types of Questions):**
-    *   Exercise Questions, Example Questions, and other clearly defined questions.
-    *   Extract only the question text, not the solution.
+    *   **ONLY** formally defined questions that fall into these categories:
+        - **Exercise Questions**: Questions explicitly labeled as "Exercise [X.Y]" or part of an exercise section
+        - **Example Questions**: Questions explicitly labeled as "Example [X.Y]" or "Solved Example"
+        - **Miscellaneous Questions**: Questions explicitly labeled as "Miscellaneous Exercises" or "Miscellaneous Questions"
+        - **Practice Questions**: Questions in sections clearly marked as "Practice Problems" or similar formal designations
+    *   Extract only the question text, not the solution or answer.
+    *   The question must be formally presented with clear demarcation (numbering, labeling, or section headers).
 
-6.  **What to AVOID Extracting:**
-    *   Answers, solutions, proofs, or explanations.
-    *   Question numbers, exercise numbers, or any other numbering.
-    *   Chapter titles, section headings, theorems, definitions, or general descriptive text.
+6.  **What to STRICTLY AVOID Extracting:**
+    *   Small inline questions or rhetorical questions within explanatory text
+    *   Questions that are part of definitions, theorems, or proofs
+    *   Casual questions used for explanation (e.g., "What happens if...", "Can you find...", "How do we...")
+    *   Questions embedded within paragraphs as teaching tools
+    *   Answers, solutions, proofs, or explanations
+    *   Question numbers, exercise numbers, or any other numbering
+    *   Chapter titles, section headings, theorems, definitions, or general descriptive text
+    *   Any question that is not formally structured as a standalone problem to be solved
 
 7.  **Duplicate Prevention:**
     *   Review the provided list of previously extracted questions.
