@@ -9,8 +9,11 @@ A simple Streamlit application that takes user queries and generates structured 
 - **Structured Output**: Automatically classifies questions with:
   - Class/Grade level
   - Subject identification
+  - Education board classification
   - Topic classification
   - Difficulty assessment
+  - Key concepts used to solve the question
+  - Prerequisite knowledge required
   - Learning objectives
   - Relevant keywords
 - **Visual Display**: Beautiful, organized interface to view results
@@ -78,9 +81,12 @@ The application generates structured output in the following format:
   "class": "Grade/Class level",
   "subject": "Subject name",
   "topic": "Specific topic",
+  "board": "Education board (CBSE, ICSE, etc.)",
   "difficulty": "Easy/Medium/Hard",
+  "concepts": ["Key concepts used to solve the question"],
+  "prerequisites": ["Prerequisite knowledge required"],
   "learning_objective": "What students should learn",
-  "keywords": "Relevant keywords"
+  "keywords": ["Relevant keywords"]
 }
 ```
 

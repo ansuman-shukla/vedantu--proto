@@ -20,6 +20,8 @@ class QuestionStructure(BaseModel):
     topic: str = Field(description="Specific topic within the subject")
     board: str = Field(description="Education board in India (e.g., CBSE, ICSE, State Board, IB, CAIE, NIOS)")
     difficulty: str = Field(description="Difficulty level: Easy, Medium, or Hard")
+    concepts: List[str] = Field(description="List of key concepts that will be used to solve this question")
+    prerequisites: List[str] = Field(description="List of prerequisite knowledge/concepts needed to understand and solve this question")
     learning_objective: str = Field(description="What students should learn from this question")
     keywords: List[str] = Field(description="List of relevant keywords for the question")
 
@@ -116,6 +118,25 @@ def display_structured_output(data: QuestionStructure):
     st.markdown("#### 💡 Learning Objective")
     st.markdown(f"*{data.learning_objective}*")
     
+    # New sections for concepts and prerequisites
+    col1, col2 = st.columns(2)
+    
+    with col1:
+        st.markdown("#### 🧠 Key Concepts")
+        if data.concepts and len(data.concepts) > 0:
+            for concept in data.concepts:
+                st.markdown(f"• {concept}")
+        else:
+            st.info("No key concepts specified")
+    
+    with col2:
+        st.markdown("#### 📋 Prerequisites")
+        if data.prerequisites and len(data.prerequisites) > 0:
+            for prerequisite in data.prerequisites:
+                st.markdown(f"• {prerequisite}")
+        else:
+            st.info("No prerequisites specified")
+    
     # Display raw data in expander
     with st.expander("📋 View Raw Data"):
         st.json(data.model_dump())
@@ -160,6 +181,8 @@ def main():
            - Education board (CBSE, ICSE, State boards, etc.)
            - Topic identification
            - Difficulty assessment
+           - Key concepts used to solve the question
+           - Prerequisite knowledge required
            - Learning objectives
            - Relevant keywords
         """)

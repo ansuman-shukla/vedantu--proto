@@ -1,0 +1,304 @@
+2025-07-16 16:52:00,318 - INFO - ==================================================
+2025-07-16 16:52:00,318 - INFO - STARTING OCR PROCESSING
+2025-07-16 16:52:00,318 - INFO - ==================================================
+2025-07-16 16:52:00,318 - INFO - PDF size: 0.77 MB
+2025-07-16 16:52:00,318 - INFO - OCR started at: 2025-07-16 16:52:00
+2025-07-16 16:52:01,351 - INFO - Sending PDF to Mistral OCR API
+2025-07-16 16:52:06,725 - INFO - HTTP Request: POST https://api.mistral.ai/v1/ocr "HTTP/1.1 200 OK"
+2025-07-16 16:52:07,634 - INFO - OCR API response received in 6.28 seconds
+2025-07-16 16:52:07,634 - INFO - OCR successful! Processing 8 pages
+2025-07-16 16:52:07,640 - INFO - OCR processing complete! Cached 12 images
+2025-07-16 16:52:07,640 - INFO - Total OCR processing time: 7.32 seconds
+2025-07-16 16:52:07,640 - INFO - ==================================================
+2025-07-16 16:52:41,192 - INFO - New PDF uploaded: Application of the Integral.pdf (Size: 806667 bytes)
+2025-07-16 16:52:43,998 - INFO - ==================================================
+2025-07-16 16:52:43,998 - INFO - STARTING OCR PROCESSING
+2025-07-16 16:52:43,998 - INFO - ==================================================
+2025-07-16 16:52:43,998 - INFO - PDF size: 0.77 MB
+2025-07-16 16:52:43,998 - INFO - OCR started at: 2025-07-16 16:52:43
+2025-07-16 16:52:45,017 - INFO - Sending PDF to Mistral OCR API
+2025-07-16 16:52:49,775 - INFO - HTTP Request: POST https://api.mistral.ai/v1/ocr "HTTP/1.1 200 OK"
+2025-07-16 16:52:50,722 - INFO - OCR API response received in 5.71 seconds
+2025-07-16 16:52:50,722 - INFO - OCR successful! Processing 8 pages
+2025-07-16 16:52:50,722 - INFO - OCR processing complete! Cached 12 images
+2025-07-16 16:52:50,722 - INFO - Total OCR processing time: 6.72 seconds
+2025-07-16 16:52:50,726 - INFO - ==================================================
+2025-07-16 16:53:02,513 - INFO - User initiated question generation with sliding window
+2025-07-16 16:53:02,513 - INFO - PDF: Application of the Integral.pdf (806667 bytes)
+2025-07-16 16:53:02,513 - INFO - Total pages available: 8
+2025-07-16 16:53:02,513 - INFO - Starting sliding window processing for PDF with 8 pages
+2025-07-16 16:53:02,513 - INFO - Process started at: 2025-07-16 16:53:02
+2025-07-16 16:53:02,569 - INFO - Processing sliding window for page 1/8
+2025-07-16 16:53:02,570 - INFO - Starting question extraction for Page 1
+2025-07-16 16:53:02,580 - INFO - Sending request to Gemini API for Page 1
+2025-07-16 16:53:18,111 - INFO - Gemini API response received for Page 1 in 15.53 seconds
+2025-07-16 16:53:18,119 - INFO - Successfully extracted 0 questions from Page 1 in 15.55 seconds
+2025-07-16 16:53:18,119 - INFO - Page 1: No questions extracted in 15.55 seconds
+2025-07-16 16:53:18,120 - INFO - Processing sliding window for page 2/8
+2025-07-16 16:53:18,120 - INFO - Starting question extraction for Page 2
+2025-07-16 16:53:18,127 - INFO - Sending request to Gemini API for Page 2
+2025-07-16 16:53:28,829 - INFO - Gemini API response received for Page 2 in 10.70 seconds
+2025-07-16 16:53:28,830 - INFO - Successfully extracted 0 questions from Page 2 in 10.71 seconds
+2025-07-16 16:53:28,830 - INFO - Page 2: No questions extracted in 10.71 seconds
+2025-07-16 16:53:28,830 - INFO - Processing sliding window for page 3/8
+2025-07-16 16:53:28,830 - INFO - Starting question extraction for Page 3
+2025-07-16 16:53:28,837 - INFO - Sending request to Gemini API for Page 3
+2025-07-16 16:53:42,531 - INFO - Gemini API response received for Page 3 in 13.69 seconds
+2025-07-16 16:53:42,531 - INFO - Successfully extracted 1 questions from Page 3 in 13.70 seconds
+2025-07-16 16:53:42,531 - INFO - Page 3: Successfully extracted 1 questions in 13.70 seconds
+2025-07-16 16:53:42,535 - INFO - Processing sliding window for page 4/8
+2025-07-16 16:53:42,536 - INFO - Starting question extraction for Page 4
+2025-07-16 16:53:42,536 - INFO - Sending request to Gemini API for Page 4
+2025-07-16 16:53:56,452 - INFO - Gemini API response received for Page 4 in 13.92 seconds
+2025-07-16 16:53:56,460 - INFO - Successfully extracted 1 questions from Page 4 in 13.92 seconds
+2025-07-16 16:53:56,460 - INFO - Page 4: Successfully extracted 1 questions in 13.93 seconds
+2025-07-16 16:53:56,460 - INFO - Processing sliding window for page 5/8
+2025-07-16 16:53:56,460 - INFO - Starting question extraction for Page 5
+2025-07-16 16:53:56,468 - INFO - Sending request to Gemini API for Page 5
+2025-07-16 16:54:24,210 - INFO - Gemini API response received for Page 5 in 27.74 seconds
+2025-07-16 16:54:24,216 - INFO - Successfully extracted 5 questions from Page 5 in 27.76 seconds
+2025-07-16 16:54:24,216 - INFO - Page 5: Successfully extracted 5 questions in 27.76 seconds
+2025-07-16 16:54:24,219 - INFO - Processing sliding window for page 6/8
+2025-07-16 16:54:24,221 - INFO - Starting question extraction for Page 6
+2025-07-16 16:54:24,227 - INFO - Sending request to Gemini API for Page 6
+2025-07-16 16:54:39,564 - INFO - Gemini API response received for Page 6 in 15.34 seconds
+2025-07-16 16:54:39,567 - INFO - Successfully extracted 1 questions from Page 6 in 15.35 seconds
+2025-07-16 16:54:39,567 - INFO - Page 6: Successfully extracted 1 questions in 15.35 seconds
+2025-07-16 16:54:39,567 - INFO - Processing sliding window for page 7/8
+2025-07-16 16:54:39,567 - INFO - Starting question extraction for Page 7
+2025-07-16 16:54:39,573 - INFO - Sending request to Gemini API for Page 7
+2025-07-16 16:55:01,349 - INFO - Gemini API response received for Page 7 in 21.78 seconds
+2025-07-16 16:55:01,349 - INFO - Successfully extracted 6 questions from Page 7 in 21.78 seconds
+2025-07-16 16:55:01,349 - INFO - Page 7: Successfully extracted 6 questions in 21.78 seconds
+2025-07-16 16:55:01,349 - INFO - Processing sliding window for page 8/8
+2025-07-16 16:55:01,349 - INFO - Starting question extraction for Page 8
+2025-07-16 16:55:01,357 - INFO - Sending request to Gemini API for Page 8
+2025-07-16 16:55:10,289 - INFO - Gemini API response received for Page 8 in 8.93 seconds
+2025-07-16 16:55:10,289 - INFO - Successfully extracted 0 questions from Page 8 in 8.94 seconds
+2025-07-16 16:55:10,289 - INFO - Page 8: No questions extracted in 8.94 seconds
+2025-07-16 16:55:10,294 - INFO - ================================================================================
+2025-07-16 16:55:10,294 - INFO - SLIDING WINDOW PROCESSING COMPLETE
+2025-07-16 16:55:10,294 - INFO - ================================================================================
+2025-07-16 16:55:10,294 - INFO - Process completed at: 2025-07-16 16:55:10
+2025-07-16 16:55:10,294 - INFO - Total processing time: 127.78 seconds
+2025-07-16 16:55:10,294 - INFO - Average time per page: 15.97 seconds
+2025-07-16 16:55:10,294 - INFO - Total pages processed: 8
+2025-07-16 16:55:10,294 - INFO - Pages with questions: 5
+2025-07-16 16:55:10,294 - INFO - Pages without questions: 3
+2025-07-16 16:55:10,294 - INFO - Total questions extracted: 14
+2025-07-16 16:55:10,294 - INFO - Final question count: 14
+2025-07-16 16:55:10,302 - INFO - Average questions per productive page: 2.80
+2025-07-16 16:55:10,303 - INFO - ================================================================================
+2025-07-16 19:40:29,923 - INFO - New PDF uploaded: boss_level_test.pdf (Size: 1461833 bytes)
+2025-07-16 19:40:34,574 - INFO - ==================================================
+2025-07-16 19:40:34,574 - INFO - STARTING OCR PROCESSING
+2025-07-16 19:40:34,582 - INFO - ==================================================
+2025-07-16 19:40:34,582 - INFO - PDF size: 1.39 MB
+2025-07-16 19:40:34,583 - INFO - OCR started at: 2025-07-16 19:40:34
+2025-07-16 19:40:35,682 - INFO - Sending PDF to Mistral OCR API
+2025-07-16 19:40:41,866 - INFO - HTTP Request: POST https://api.mistral.ai/v1/ocr "HTTP/1.1 200 OK"
+2025-07-16 19:40:41,897 - INFO - OCR API response received in 6.22 seconds
+2025-07-16 19:40:41,897 - INFO - OCR successful! Processing 17 pages
+2025-07-16 19:40:41,897 - INFO - OCR processing complete! Cached 8 images
+2025-07-16 19:40:41,897 - INFO - Total OCR processing time: 7.32 seconds
+2025-07-16 19:40:41,897 - INFO - ==================================================
+2025-07-16 19:40:52,677 - INFO - User initiated question generation with sliding window
+2025-07-16 19:40:52,677 - INFO - PDF: boss_level_test.pdf (1461833 bytes)
+2025-07-16 19:40:52,677 - INFO - Total pages available: 17
+2025-07-16 19:40:52,677 - INFO - Starting sliding window processing for PDF with 17 pages
+2025-07-16 19:40:52,677 - INFO - Process started at: 2025-07-16 19:40:52
+2025-07-16 19:40:52,732 - INFO - Processing sliding window for page 1/17
+2025-07-16 19:40:52,732 - INFO - Starting question extraction for Page 1
+2025-07-16 19:40:52,901 - INFO - Sending request to Gemini API for Page 1
+2025-07-16 19:41:07,821 - INFO - Gemini API response received for Page 1 in 14.92 seconds
+2025-07-16 19:41:07,821 - INFO - Successfully extracted 0 questions from Page 1 in 15.09 seconds
+2025-07-16 19:41:07,821 - INFO - Page 1: No questions extracted in 15.09 seconds
+2025-07-16 19:41:07,821 - INFO - Processing sliding window for page 2/17
+2025-07-16 19:41:07,833 - INFO - Starting question extraction for Page 2
+2025-07-16 19:41:07,833 - INFO - Sending request to Gemini API for Page 2
+2025-07-16 19:41:17,021 - INFO - Gemini API response received for Page 2 in 9.19 seconds
+2025-07-16 19:41:17,021 - INFO - Successfully extracted 0 questions from Page 2 in 9.19 seconds
+2025-07-16 19:41:17,022 - INFO - Page 2: No questions extracted in 9.20 seconds
+2025-07-16 19:41:17,023 - INFO - Processing sliding window for page 3/17
+2025-07-16 19:41:17,024 - INFO - Starting question extraction for Page 3
+2025-07-16 19:41:17,028 - INFO - Sending request to Gemini API for Page 3
+2025-07-16 19:41:30,960 - INFO - Gemini API response received for Page 3 in 13.93 seconds
+2025-07-16 19:41:30,960 - ERROR - JSON parsing failed for Page 3 after 13.94 seconds: Expecting value: line 1 column 1 (char 0)
+2025-07-16 19:41:30,961 - INFO - Page 3: No questions extracted in 13.94 seconds
+2025-07-16 19:41:30,963 - INFO - Processing sliding window for page 4/17
+2025-07-16 19:41:30,964 - INFO - Starting question extraction for Page 4
+2025-07-16 19:41:30,967 - INFO - Sending request to Gemini API for Page 4
+2025-07-16 19:41:43,736 - INFO - Gemini API response received for Page 4 in 12.77 seconds
+2025-07-16 19:41:43,736 - ERROR - JSON parsing failed for Page 4 after 12.77 seconds: Invalid \escape: line 4 column 45 (char 95)
+2025-07-16 19:41:43,736 - INFO - Page 4: No questions extracted in 12.77 seconds
+2025-07-16 19:41:43,736 - INFO - Processing sliding window for page 5/17
+2025-07-16 19:41:43,736 - INFO - Starting question extraction for Page 5
+2025-07-16 19:41:43,736 - INFO - Sending request to Gemini API for Page 5
+2025-07-16 19:42:03,745 - INFO - Gemini API response received for Page 5 in 20.01 seconds
+2025-07-16 19:42:03,745 - INFO - Successfully extracted 7 questions from Page 5 in 20.01 seconds
+2025-07-16 19:42:03,745 - INFO - Page 5: Successfully extracted 7 questions in 20.01 seconds
+2025-07-16 19:42:03,745 - INFO - Processing sliding window for page 6/17
+2025-07-16 19:42:03,745 - INFO - Starting question extraction for Page 6
+2025-07-16 19:42:03,745 - INFO - Sending request to Gemini API for Page 6
+2025-07-16 19:42:18,681 - INFO - Gemini API response received for Page 6 in 14.94 seconds
+2025-07-16 19:42:18,681 - INFO - Successfully extracted 1 questions from Page 6 in 14.94 seconds
+2025-07-16 19:42:18,681 - INFO - Page 6: Successfully extracted 1 questions in 14.94 seconds
+2025-07-16 19:42:18,682 - INFO - Processing sliding window for page 7/17
+2025-07-16 19:42:18,682 - INFO - Starting question extraction for Page 7
+2025-07-16 19:42:18,685 - INFO - Sending request to Gemini API for Page 7
+2025-07-16 19:42:40,496 - INFO - Gemini API response received for Page 7 in 21.81 seconds
+2025-07-16 19:42:40,496 - INFO - Successfully extracted 0 questions from Page 7 in 21.81 seconds
+2025-07-16 19:42:40,496 - INFO - Page 7: No questions extracted in 21.81 seconds
+2025-07-16 19:42:40,498 - INFO - Processing sliding window for page 8/17
+2025-07-16 19:42:40,498 - INFO - Starting question extraction for Page 8
+2025-07-16 19:42:40,502 - INFO - Sending request to Gemini API for Page 8
+2025-07-16 19:43:00,602 - INFO - Gemini API response received for Page 8 in 20.10 seconds
+2025-07-16 19:43:00,602 - INFO - Successfully extracted 1 questions from Page 8 in 20.10 seconds
+2025-07-16 19:43:00,602 - INFO - Page 8: Successfully extracted 1 questions in 20.10 seconds
+2025-07-16 19:43:00,602 - INFO - Processing sliding window for page 9/17
+2025-07-16 19:43:00,602 - INFO - Starting question extraction for Page 9
+2025-07-16 19:43:00,602 - INFO - Sending request to Gemini API for Page 9
+2025-07-16 19:43:21,974 - INFO - Gemini API response received for Page 9 in 21.37 seconds
+2025-07-16 19:43:21,974 - INFO - Successfully extracted 1 questions from Page 9 in 21.37 seconds
+2025-07-16 19:43:21,975 - INFO - Page 9: Successfully extracted 1 questions in 21.37 seconds
+2025-07-16 19:43:21,975 - INFO - Processing sliding window for page 10/17
+2025-07-16 19:43:21,975 - INFO - Starting question extraction for Page 10
+2025-07-16 19:43:21,975 - INFO - Sending request to Gemini API for Page 10
+2025-07-16 19:43:33,058 - INFO - Gemini API response received for Page 10 in 11.08 seconds
+2025-07-16 19:43:33,058 - INFO - Successfully extracted 0 questions from Page 10 in 11.08 seconds
+2025-07-16 19:43:33,058 - INFO - Page 10: No questions extracted in 11.08 seconds
+2025-07-16 19:43:33,058 - INFO - Processing sliding window for page 11/17
+2025-07-16 19:43:33,058 - INFO - Starting question extraction for Page 11
+2025-07-16 19:43:33,074 - INFO - Sending request to Gemini API for Page 11
+2025-07-16 19:43:45,187 - INFO - Gemini API response received for Page 11 in 12.11 seconds
+2025-07-16 19:43:45,187 - INFO - Successfully extracted 0 questions from Page 11 in 12.13 seconds
+2025-07-16 19:43:45,187 - INFO - Page 11: No questions extracted in 12.13 seconds
+2025-07-16 19:43:45,187 - INFO - Processing sliding window for page 12/17
+2025-07-16 19:43:45,187 - INFO - Starting question extraction for Page 12
+2025-07-16 19:43:45,187 - INFO - Sending request to Gemini API for Page 12
+2025-07-16 19:44:05,878 - INFO - Gemini API response received for Page 12 in 20.69 seconds
+2025-07-16 19:44:05,878 - INFO - Successfully extracted 2 questions from Page 12 in 20.69 seconds
+2025-07-16 19:44:05,878 - INFO - Page 12: Successfully extracted 2 questions in 20.69 seconds
+2025-07-16 19:44:05,878 - INFO - Processing sliding window for page 13/17
+2025-07-16 19:44:05,878 - INFO - Starting question extraction for Page 13
+2025-07-16 19:44:05,893 - INFO - Sending request to Gemini API for Page 13
+2025-07-16 19:44:37,348 - INFO - Gemini API response received for Page 13 in 31.45 seconds
+2025-07-16 19:44:37,349 - INFO - Successfully extracted 8 questions from Page 13 in 31.47 seconds
+2025-07-16 19:44:37,349 - INFO - Page 13: Successfully extracted 8 questions in 31.47 seconds
+2025-07-16 19:44:37,351 - INFO - Processing sliding window for page 14/17
+2025-07-16 19:44:37,351 - INFO - Starting question extraction for Page 14
+2025-07-16 19:44:37,351 - INFO - Sending request to Gemini API for Page 14
+2025-07-16 19:45:10,440 - INFO - Gemini API response received for Page 14 in 33.09 seconds
+2025-07-16 19:45:10,440 - INFO - Successfully extracted 9 questions from Page 14 in 33.09 seconds
+2025-07-16 19:45:10,455 - INFO - Page 14: Successfully extracted 9 questions in 33.09 seconds
+2025-07-16 19:45:10,455 - INFO - Processing sliding window for page 15/17
+2025-07-16 19:45:10,455 - INFO - Starting question extraction for Page 15
+2025-07-16 19:45:10,455 - INFO - Sending request to Gemini API for Page 15
+2025-07-16 19:45:26,711 - INFO - Gemini API response received for Page 15 in 16.26 seconds
+2025-07-16 19:45:26,711 - INFO - Successfully extracted 3 questions from Page 15 in 16.26 seconds
+2025-07-16 19:45:26,712 - INFO - Page 15: Successfully extracted 3 questions in 16.26 seconds
+2025-07-16 19:45:26,714 - INFO - Processing sliding window for page 16/17
+2025-07-16 19:45:26,714 - INFO - Starting question extraction for Page 16
+2025-07-16 19:45:26,714 - INFO - Sending request to Gemini API for Page 16
+2025-07-16 19:45:39,321 - INFO - Gemini API response received for Page 16 in 12.61 seconds
+2025-07-16 19:45:39,321 - INFO - Successfully extracted 0 questions from Page 16 in 12.61 seconds
+2025-07-16 19:45:39,322 - INFO - Page 16: No questions extracted in 12.61 seconds
+2025-07-16 19:45:39,322 - INFO - Processing sliding window for page 17/17
+2025-07-16 19:45:39,323 - INFO - Starting question extraction for Page 17
+2025-07-16 19:45:39,326 - INFO - Sending request to Gemini API for Page 17
+2025-07-16 19:45:46,863 - INFO - Gemini API response received for Page 17 in 7.54 seconds
+2025-07-16 19:45:46,863 - INFO - Successfully extracted 0 questions from Page 17 in 7.54 seconds
+2025-07-16 19:45:46,863 - INFO - Page 17: No questions extracted in 7.54 seconds
+2025-07-16 19:45:46,863 - INFO - ================================================================================
+2025-07-16 19:45:46,863 - INFO - SLIDING WINDOW PROCESSING COMPLETE
+2025-07-16 19:45:46,863 - INFO - ================================================================================
+2025-07-16 19:45:46,863 - INFO - Process completed at: 2025-07-16 19:45:46
+2025-07-16 19:45:46,863 - INFO - Total processing time: 294.19 seconds
+2025-07-16 19:45:46,863 - INFO - Average time per page: 17.31 seconds
+2025-07-16 19:45:46,863 - INFO - Total pages processed: 17
+2025-07-16 19:45:46,863 - INFO - Pages with questions: 8
+2025-07-16 19:45:46,863 - INFO - Pages without questions: 9
+2025-07-16 19:45:46,863 - INFO - Total questions extracted: 32
+2025-07-16 19:45:46,863 - INFO - Final question count: 32
+2025-07-16 19:45:46,863 - INFO - Average questions per productive page: 4.00
+2025-07-16 19:45:46,863 - INFO - ================================================================================
+2025-07-17 18:34:06,719 - INFO - New PDF uploaded: boss_level_test.pdf (Size: 1461833 bytes)
+2025-07-17 18:34:35,501 - INFO - New PDF uploaded: Application of the Integral.pdf (Size: 806667 bytes)
+2025-07-17 18:34:40,572 - INFO - ==================================================
+2025-07-17 18:34:40,573 - INFO - STARTING OCR PROCESSING
+2025-07-17 18:34:40,574 - INFO - ==================================================
+2025-07-17 18:34:40,574 - INFO - PDF size: 0.77 MB
+2025-07-17 18:34:40,575 - INFO - OCR started at: 2025-07-17 18:34:40
+2025-07-17 18:34:42,697 - INFO - Sending PDF to Mistral OCR API
+2025-07-17 18:34:46,654 - INFO - HTTP Request: POST https://api.mistral.ai/v1/ocr "HTTP/1.1 200 OK"
+2025-07-17 18:34:46,677 - INFO - OCR API response received in 3.98 seconds
+2025-07-17 18:34:46,678 - INFO - OCR successful! Processing 8 pages
+2025-07-17 18:34:46,679 - INFO - OCR processing complete! Cached 12 images
+2025-07-17 18:34:46,679 - INFO - Total OCR processing time: 6.11 seconds
+2025-07-17 18:34:46,680 - INFO - ==================================================
+2025-07-17 18:35:00,670 - INFO - User initiated question generation with sliding window
+2025-07-17 18:35:00,671 - INFO - PDF: Application of the Integral.pdf (806667 bytes)
+2025-07-17 18:35:00,673 - INFO - Total pages available: 8
+2025-07-17 18:35:00,675 - INFO - Starting sliding window processing for PDF with 8 pages
+2025-07-17 18:35:00,676 - INFO - Process started at: 2025-07-17 18:35:00
+2025-07-17 18:35:00,730 - INFO - Processing sliding window for page 1/8
+2025-07-17 18:35:00,731 - INFO - Starting question extraction for Page 1
+2025-07-17 18:35:01,020 - INFO - Sending request to Gemini API for Page 1
+2025-07-17 18:35:17,205 - INFO - Gemini API response received for Page 1 in 16.18 seconds
+2025-07-17 18:35:17,205 - ERROR - JSON parsing failed for Page 1 after 16.47 seconds: Expecting value: line 1 column 1 (char 0)
+2025-07-17 18:35:17,207 - INFO - Page 1: No questions extracted in 16.48 seconds
+2025-07-17 18:35:17,209 - INFO - Processing sliding window for page 2/8
+2025-07-17 18:35:17,210 - INFO - Starting question extraction for Page 2
+2025-07-17 18:35:17,218 - INFO - Sending request to Gemini API for Page 2
+2025-07-17 18:35:33,026 - INFO - Gemini API response received for Page 2 in 15.81 seconds
+2025-07-17 18:35:33,027 - INFO - Successfully extracted 0 questions from Page 2 in 15.82 seconds
+2025-07-17 18:35:33,028 - INFO - Page 2: No questions extracted in 15.82 seconds
+2025-07-17 18:35:33,030 - INFO - Processing sliding window for page 3/8
+2025-07-17 18:35:33,031 - INFO - Starting question extraction for Page 3
+2025-07-17 18:35:33,040 - INFO - Sending request to Gemini API for Page 3
+2025-07-17 18:35:45,121 - INFO - Gemini API response received for Page 3 in 12.08 seconds
+2025-07-17 18:35:45,122 - INFO - Successfully extracted 1 questions from Page 3 in 12.09 seconds
+2025-07-17 18:35:45,122 - INFO - Page 3: Successfully extracted 1 questions in 12.09 seconds
+2025-07-17 18:35:45,124 - INFO - Processing sliding window for page 4/8
+2025-07-17 18:35:45,126 - INFO - Starting question extraction for Page 4
+2025-07-17 18:35:45,133 - INFO - Sending request to Gemini API for Page 4
+2025-07-17 18:36:03,479 - INFO - Gemini API response received for Page 4 in 18.34 seconds
+2025-07-17 18:36:03,480 - INFO - Successfully extracted 1 questions from Page 4 in 18.35 seconds
+2025-07-17 18:36:03,480 - INFO - Page 4: Successfully extracted 1 questions in 18.36 seconds
+2025-07-17 18:36:03,482 - INFO - Processing sliding window for page 5/8
+2025-07-17 18:36:03,483 - INFO - Starting question extraction for Page 5
+2025-07-17 18:36:03,489 - INFO - Sending request to Gemini API for Page 5
+2025-07-17 18:36:22,302 - INFO - Gemini API response received for Page 5 in 18.81 seconds
+2025-07-17 18:36:22,303 - INFO - Successfully extracted 5 questions from Page 5 in 18.82 seconds
+2025-07-17 18:36:22,304 - INFO - Page 5: Successfully extracted 5 questions in 18.82 seconds
+2025-07-17 18:36:22,307 - INFO - Processing sliding window for page 6/8
+2025-07-17 18:36:22,310 - INFO - Starting question extraction for Page 6
+2025-07-17 18:36:22,320 - INFO - Sending request to Gemini API for Page 6
+2025-07-17 18:36:36,441 - INFO - Gemini API response received for Page 6 in 14.12 seconds
+2025-07-17 18:36:36,441 - INFO - Successfully extracted 1 questions from Page 6 in 14.13 seconds
+2025-07-17 18:36:36,442 - INFO - Page 6: Successfully extracted 1 questions in 14.13 seconds
+2025-07-17 18:36:36,444 - INFO - Processing sliding window for page 7/8
+2025-07-17 18:36:36,446 - INFO - Starting question extraction for Page 7
+2025-07-17 18:36:36,456 - INFO - Sending request to Gemini API for Page 7
+2025-07-17 18:37:08,991 - INFO - Gemini API response received for Page 7 in 32.53 seconds
+2025-07-17 18:37:08,992 - INFO - Successfully extracted 6 questions from Page 7 in 32.55 seconds
+2025-07-17 18:37:08,992 - INFO - Page 7: Successfully extracted 6 questions in 32.55 seconds
+2025-07-17 18:37:08,994 - INFO - Processing sliding window for page 8/8
+2025-07-17 18:37:08,996 - INFO - Starting question extraction for Page 8
+2025-07-17 18:37:09,005 - INFO - Sending request to Gemini API for Page 8
+2025-07-17 18:37:17,803 - INFO - Gemini API response received for Page 8 in 8.80 seconds
+2025-07-17 18:37:17,803 - INFO - Successfully extracted 0 questions from Page 8 in 8.81 seconds
+2025-07-17 18:37:17,804 - INFO - Page 8: No questions extracted in 8.81 seconds
+2025-07-17 18:37:17,806 - INFO - ================================================================================
+2025-07-17 18:37:17,806 - INFO - SLIDING WINDOW PROCESSING COMPLETE
+2025-07-17 18:37:17,808 - INFO - ================================================================================
+2025-07-17 18:37:17,815 - INFO - Process completed at: 2025-07-17 18:37:17
+2025-07-17 18:37:17,816 - INFO - Total processing time: 137.13 seconds
+2025-07-17 18:37:17,818 - INFO - Average time per page: 17.14 seconds
+2025-07-17 18:37:17,819 - INFO - Total pages processed: 8
+2025-07-17 18:37:17,820 - INFO - Pages with questions: 5
+2025-07-17 18:37:17,821 - INFO - Pages without questions: 3
+2025-07-17 18:37:17,823 - INFO - Total questions extracted: 14
+2025-07-17 18:37:17,824 - INFO - Final question count: 14
+2025-07-17 18:37:17,824 - INFO - Average questions per productive page: 2.80
+2025-07-17 18:37:17,825 - INFO - ================================================================================

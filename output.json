@@ -1,0 +1,578 @@
+{
+  "pdf_path": "maths_example.pdf",
+  "total_pages": 12,
+  "window_size": 3,
+  "total_windows": 12,
+  "processing_status": "completed",
+  "windows_completed": 12,
+  "windows_results": [
+    {
+      "questions": [
+        {
+          "question_text": "Why Mathematical Modelling?",
+          "question_type": "Conceptual/Explanatory",
+          "subject_topic": "Mathematical Modelling",
+          "difficulty_level": "Beginner",
+          "context": "Section A.2.2 title, Page 1"
+        },
+        {
+          "question_text": "How to find the width of a river (particularly, when it is difficult to cross the river)?",
+          "question_type": "Problem-solving",
+          "subject_topic": "Mathematical Modelling, Geometry/Trigonometry",
+          "difficulty_level": "Intermediate",
+          "context": "Example problem (i) under A.2.2, Page 1"
+        },
+        {
+          "question_text": "What is the optimal angle in case of shot-put (by considering the variables such as: the height of the thrower, resistance of the media, acceleration due to gravity etc.)?",
+          "question_type": "Problem-solving",
+          "subject_topic": "Mathematical Modelling, Physics/Optimization",
+          "difficulty_level": "Intermediate",
+          "context": "Example problem (ii) under A.2.2, Page 1"
+        },
+        {
+          "question_text": "How to find the height of a tower (particularly, when it is not possible to reach the top of the tower)?",
+          "question_type": "Problem-solving",
+          "subject_topic": "Mathematical Modelling, Geometry/Trigonometry",
+          "difficulty_level": "Beginner",
+          "context": "Example problem (iii) under A.2.2, Page 1"
+        },
+        {
+          "question_text": "How to find the temperature at the surface of the Sun?",
+          "question_type": "Problem-solving/Conceptual",
+          "subject_topic": "Mathematical Modelling, Physics/Astronomy",
+          "difficulty_level": "Advanced",
+          "context": "Example problem (iv) under A.2.2, Page 1"
+        },
+        {
+          "question_text": "Why heart patients are not allowed to use lift? (without knowing the physiology of a human being).",
+          "question_type": "Explanatory/Conceptual",
+          "subject_topic": "Mathematical Modelling, Biology/Physiology",
+          "difficulty_level": "Intermediate",
+          "context": "Example problem (v) under A.2.2, Page 2"
+        },
+        {
+          "question_text": "How to find the mass of the Earth?",
+          "question_type": "Problem-solving/Conceptual",
+          "subject_topic": "Mathematical Modelling, Physics/Astronomy",
+          "difficulty_level": "Advanced",
+          "context": "Example problem (vi) under A.2.2, Page 2"
+        },
+        {
+          "question_text": "How to estimate the yield of pulses in India from the standing crops (when a person is not allowed to cut all of it)?",
+          "question_type": "Problem-solving/Estimation",
+          "subject_topic": "Mathematical Modelling, Statistics/Agriculture",
+          "difficulty_level": "Intermediate",
+          "context": "Example problem (vii) under A.2.2, Page 2"
+        },
+        {
+          "question_text": "How to find the volume of blood inside the body of a person (when a person is not allowed to bleed completely)?",
+          "question_type": "Problem-solving/Estimation",
+          "subject_topic": "Mathematical Modelling, Biology/Physiology/Statistics",
+          "difficulty_level": "Intermediate",
+          "context": "Example problem (viii) under A.2.2, Page 2"
+        },
+        {
+          "question_text": "How to estimate the population of India in the year 2020 (when a person is not allowed to wait till then)?",
+          "question_type": "Problem-solving/Estimation",
+          "subject_topic": "Mathematical Modelling, Demography/Statistics",
+          "difficulty_level": "Intermediate",
+          "context": "Example problem (ix) under A.2.2, Page 2"
+        },
+        {
+          "question_text": "For what are we looking for (when identifying the need for the model)?",
+          "question_type": "Guiding/Conceptual",
+          "subject_topic": "Principles of Mathematical Modelling",
+          "difficulty_level": "Beginner",
+          "context": "Principle (i) under A.2.3, Page 2"
+        },
+        {
+          "question_text": "What is given (when identifying the available relevant data)?",
+          "question_type": "Guiding/Conceptual",
+          "subject_topic": "Principles of Mathematical Modelling",
+          "difficulty_level": "Beginner",
+          "context": "Principle (iii) under A.2.3, Page 2"
+        }
+      ],
+      "summary": "The text introduces mathematical modelling, explains its importance by presenting several real-life problems that can be solved using this approach, and outlines the fundamental principles involved in the modelling process.",
+      "total_questions_found": 12,
+      "window_id": 1,
+      "focus_page": 1,
+      "page_range": "1-2",
+      "total_pages_in_window": 2
+    },
+    {
+      "questions": [
+        {
+          "question_text": "Why Mathematical Modelling?",
+          "question_type": "Implicit question (conceptual/introductory)",
+          "subject_topic": "Mathematical Modelling",
+          "difficulty_level": "Beginner",
+          "context": "Section A.2.2 heading, introducing the purpose and necessity of mathematical modelling."
+        },
+        {
+          "question_text": "To find the width of a river (particularly , when it is dif ficult to cross the river).",
+          "question_type": "Problem-solving (example problem)",
+          "subject_topic": "Mathematical Modelling, Geometry/Trigonometry",
+          "difficulty_level": "Intermediate",
+          "context": "Listed as an example of a problem that can be solved using mathematical modelling."
+        },
+        {
+          "question_text": "To find the optimal angle in case of shot-put (by considering the variables such as : the height of the thrower , resistance of the media, acceleration due to gravity etc.).",
+          "question_type": "Problem-solving (example problem)",
+          "subject_topic": "Mathematical Modelling, Physics/Mechanics",
+          "difficulty_level": "Intermediate",
+          "context": "Listed as an example of a problem that can be solved using mathematical modelling."
+        },
+        {
+          "question_text": "To find the height of a tower (particularly , when it is not possible to reach the top of the tower).",
+          "question_type": "Problem-solving (example problem)",
+          "subject_topic": "Mathematical Modelling, Geometry/Trigonometry",
+          "difficulty_level": "Intermediate",
+          "context": "Listed as an example of a problem that can be solved using mathematical modelling."
+        },
+        {
+          "question_text": "To find the temperature at the surface of the Sun.",
+          "question_type": "Problem-solving (example problem)",
+          "subject_topic": "Mathematical Modelling, Astronomy/Physics",
+          "difficulty_level": "Advanced",
+          "context": "Listed as an example of a problem that can be solved using mathematical modelling."
+        },
+        {
+          "question_text": "Why heart patients are not allowed to use lift? (without knowing the physiology of a human being).",
+          "question_type": "Explicit question (conceptual/reasoning)",
+          "subject_topic": "Mathematical Modelling, Biology/Physiology",
+          "difficulty_level": "Intermediate",
+          "context": "Listed as an example of a problem that can be solved using mathematical modelling."
+        },
+        {
+          "question_text": "To find the mass of the Earth.",
+          "question_type": "Problem-solving (example problem)",
+          "subject_topic": "Mathematical Modelling, Physics/Astronomy",
+          "difficulty_level": "Advanced",
+          "context": "Listed as an example of a problem that can be solved using mathematical modelling."
+        },
+        {
+          "question_text": "Estimate the yield of pulses in India from the standing crops (a person is not allowed to cut all of it).",
+          "question_type": "Problem-solving (example problem)",
+          "subject_topic": "Mathematical Modelling, Statistics/Agriculture",
+          "difficulty_level": "Intermediate",
+          "context": "Listed as an example of a problem that can be solved using mathematical modelling."
+        },
+        {
+          "question_text": "Find the volume of blood inside the body of a person (a person is not allowed to bleed completely).",
+          "question_type": "Problem-solving (example problem)",
+          "subject_topic": "Mathematical Modelling, Biology/Physiology",
+          "difficulty_level": "Intermediate",
+          "context": "Listed as an example of a problem that can be solved using mathematical modelling."
+        },
+        {
+          "question_text": "Estimate the population of India in the year 2020 (a person is not allowed to wait till then).",
+          "question_type": "Problem-solving (example problem)",
+          "subject_topic": "Mathematical Modelling, Statistics/Demography",
+          "difficulty_level": "Intermediate",
+          "context": "Listed as an example of a problem that can be solved using mathematical modelling."
+        },
+        {
+          "question_text": "However , it will be instructive if you first try to solve them yourself and that too without the help of Mathematics, if possible, you will then appreciate the power of Mathematics and the need for mathematical modelling.",
+          "question_type": "Practice problem/Exercise (implied instruction to solve the listed problems i-ix)",
+          "subject_topic": "Mathematical Modelling",
+          "difficulty_level": "Intermediate to Advanced",
+          "context": "Follows the list of problems (i)-(ix), encouraging the reader to attempt solving them before proceeding."
+        },
+        {
+          "question_text": "Find the height of a given tower using mathematical modelling.",
+          "question_type": "Problem-solving (example problem with solution provided)",
+          "subject_topic": "Mathematical Modelling, Geometry/Trigonometry",
+          "difficulty_level": "Beginner/Intermediate",
+          "context": "Presented as 'Example 1' to demonstrate the application of mathematical modelling steps."
+        }
+      ],
+      "summary": "The text introduces mathematical modelling, explaining its relevance and purpose by presenting a series of real-world problems that can be solved using this approach. It then outlines the principles and steps involved in mathematical modelling, concluding with a detailed example problem demonstrating the process.",
+      "total_questions_found": 12,
+      "window_id": 2,
+      "focus_page": 2,
+      "page_range": "1-3",
+      "total_pages_in_window": 3
+    },
+    {
+      "questions": [
+        {
+          "question_text": "Why heart patients are not allowed to use lift?",
+          "question_type": "Short answer/Conceptual",
+          "subject_topic": "Mathematical Modelling / Physiology",
+          "difficulty_level": "Intermediate",
+          "context": "Listed as a problem that can be solved using mathematical modelling, without knowing the physiology of a human being."
+        },
+        {
+          "question_text": "To find the mass of the Earth.",
+          "question_type": "Problem-solving/Calculation",
+          "subject_topic": "Mathematical Modelling / Physics / Astronomy",
+          "difficulty_level": "Advanced",
+          "context": "Listed as a problem that can be solved using mathematical modelling."
+        },
+        {
+          "question_text": "Estimate the yield of pulses in India from the standing crops",
+          "question_type": "Problem-solving/Estimation",
+          "subject_topic": "Mathematical Modelling / Agriculture / Statistics",
+          "difficulty_level": "Advanced",
+          "context": "Listed as a problem that can be solved using mathematical modelling, with the constraint that a person is not allowed to cut all of it."
+        },
+        {
+          "question_text": "Find the volume of blood inside the body of a person",
+          "question_type": "Problem-solving/Estimation",
+          "subject_topic": "Mathematical Modelling / Biology / Physiology",
+          "difficulty_level": "Advanced",
+          "context": "Listed as a problem that can be solved using mathematical modelling, with the constraint that a person is not allowed to bleed completely."
+        },
+        {
+          "question_text": "Estimate the population of India in the year 2020",
+          "question_type": "Problem-solving/Estimation/Prediction",
+          "subject_topic": "Mathematical Modelling / Demography / Statistics",
+          "difficulty_level": "Advanced",
+          "context": "Listed as a problem that can be solved using mathematical modelling, with the constraint that a person is not allowed to wait till then."
+        },
+        {
+          "question_text": "Identify the need for the model. (for what we are looking for)",
+          "question_type": "Conceptual/Instruction",
+          "subject_topic": "Principles of Mathematical Modelling",
+          "difficulty_level": "Beginner",
+          "context": "First basic principle of mathematical modelling, listed in terms of instructions."
+        },
+        {
+          "question_text": "Identify the available relevent data. (what is given?)",
+          "question_type": "Conceptual/Instruction",
+          "subject_topic": "Principles of Mathematical Modelling",
+          "difficulty_level": "Beginner",
+          "context": "Third basic principle of mathematical modelling, listed in terms of instructions."
+        },
+        {
+          "question_text": "Find the height of a given tower using mathematical modelling.",
+          "question_type": "Problem-solving/Application",
+          "subject_topic": "Mathematical Modelling / Trigonometry / Geometry",
+          "difficulty_level": "Intermediate",
+          "context": "Example 1 demonstrating the steps of mathematical modelling."
+        },
+        {
+          "question_text": "prepare a model to determine the quantities of the raw material R1, R2 and R3 required to meet the purchase orders.",
+          "question_type": "Problem-solving/Modelling/Application",
+          "subject_topic": "Mathematical Modelling / Linear Algebra / Matrix Algebra",
+          "difficulty_level": "Intermediate to Advanced",
+          "context": "Example 2 demonstrating the steps of mathematical modelling for a business firm producing products with raw materials and purchase orders."
+        }
+      ],
+      "summary": "The text introduces mathematical modelling, outlining its principles and a five-step process. It presents several real-world problems that can be solved using mathematical modelling, ranging from estimating population to finding the mass of the Earth. Two detailed examples are provided: finding the height of a tower and preparing a model for raw material requirements in a business firm.",
+      "total_questions_found": 9,
+      "window_id": 3,
+      "focus_page": 3,
+      "page_range": "2-4",
+      "total_pages_in_window": 3
+    },
+    {
+      "questions": [
+        {
+          "question_text": "Find the height of a given tower using mathematical modelling.",
+          "question_type": "problem-solving",
+          "subject_topic": "Mathematical Modelling, Geometry, Trigonometry",
+          "difficulty_level": "intermediate",
+          "context": "Example 1 on page 198, introducing a practical application of mathematical modelling."
+        },
+        {
+          "question_text": "prepare a model to determine the quantities of the raw material R1, R2 and R3 required to meet the purchase orders.",
+          "question_type": "problem-solving, modelling",
+          "subject_topic": "Mathematical Modelling, Matrix Algebra",
+          "difficulty_level": "intermediate",
+          "context": "Example 2 on page 199, setting up a business scenario for modelling raw material requirements."
+        },
+        {
+          "question_text": "Interpret the model in Example 2, in case A = [[3, 4, 0], [10, 15, 6]], B = [[7, 9, 3], [10, 20, 0], [5, 12, 7]] and the available raw materials are 330 units of R1, 455 units of R2 and 140 units of R3.",
+          "question_type": "problem-solving, interpretation",
+          "subject_topic": "Mathematical Modelling, Matrix Algebra",
+          "difficulty_level": "intermediate",
+          "context": "Example 3 on page 200, applying specific values to the model developed in Example 2 and asking for interpretation."
+        }
+      ],
+      "summary": "The provided text outlines the five steps of mathematical modelling: identifying the situation, converting to a mathematical model, finding a solution, interpreting results, and refining the model. It then presents three examples to illustrate these steps. Example 1 demonstrates finding the height of a tower using trigonometry. Example 2 shows how to model raw material requirements for a business using matrices. Example 3 extends Example 2 by providing specific numerical values for the matrices and asking for an interpretation of the results in the context of available raw materials.",
+      "total_questions_found": 3,
+      "window_id": 4,
+      "focus_page": 4,
+      "page_range": "3-5",
+      "total_pages_in_window": 3
+    },
+    {
+      "questions": [
+        {
+          "question_text": "prepare a model to determine the quantities of the raw material R1, R2 and R3 required to meet the purchase orders.",
+          "question_type": "Problem-solving / Model formulation",
+          "subject_topic": "Mathematical Modelling, Matrix Algebra, Business Applications",
+          "difficulty_level": "Intermediate",
+          "context": "Example 2: Let a business firm produces three types of products P1, P2 and P3 that uses three types of raw materials R1, R2 and R3. Let the firm has purchase orders from two clients F1 and F2. Considering the situation that the firm has a limited quantity of R1, R2 and R3, respectively, prepare a model to determine the quantities of the raw material R1, R2 and R3 required to meet the purchase orders."
+        },
+        {
+          "question_text": "Interpret the model in Example 2, in case A = [3 4 0; 10 15 6], B = [7 9 3; 10 20 0; 5 12 7] and the available raw materials are 330 units of R1, 455 units of R2 and 140 units of R3.",
+          "question_type": "Problem-solving / Interpretation / Analysis",
+          "subject_topic": "Mathematical Modelling, Matrix Algebra, Business Applications",
+          "difficulty_level": "Intermediate",
+          "context": "Example 3 Interpret the model in Example 2, in case A = [3 4 0; 10 15 6], B = [7 9 3; 10 20 0; 5 12 7] and the available raw materials are 330 units of R1, 455 units of R2 and 140 units of R3."
+        },
+        {
+          "question_text": "Can we make a mathematical model with a given B and with fixed quantities of the available raw material that can help the firm owner to ask the clients to modify their orders in such a way that the firm makes the full use of its available raw material?",
+          "question_type": "Conceptual / Model design",
+          "subject_topic": "Mathematical Modelling, Optimization",
+          "difficulty_level": "Advanced",
+          "context": "Query: Can we make a mathematical model with a given B and with fixed quantities of the available raw material that can help the firm owner to ask the clients to modify their orders in such a way that the firm makes the full use of its available raw material?"
+        },
+        {
+          "question_text": "How many units of each product is to be made so as to utilise the full available raw material?",
+          "question_type": "Problem-solving / System of equations",
+          "subject_topic": "Mathematical Modelling, Linear Algebra, System of Equations, Optimization",
+          "difficulty_level": "Intermediate",
+          "context": "Example 4 Suppose P1, P2, P3 and R1, R2, R3 are as in Example 2. Let the firm has 330 units of R1, 455 units of R2 and 140 units of R3 available with it and let the amount of raw materials R1, R2 and R3 required to manufacture each unit of the three products is given by B matrix. How many units of each product is to be made so as to utilise the full available raw material?"
+        }
+      ],
+      "summary": "The provided text from pages 4-6 discusses mathematical modelling, primarily focusing on business applications using matrix algebra. It presents examples of formulating models to determine raw material requirements for production orders and interpreting these models with specific numerical values. The text also poses a conceptual query about designing a model to optimize raw material utilization and then provides an example demonstrating how to set up a system of linear equations to achieve full utilization of available raw materials.",
+      "total_questions_found": 4,
+      "window_id": 5,
+      "focus_page": 5,
+      "page_range": "4-6",
+      "total_pages_in_window": 3
+    },
+    {
+      "questions": [
+        {
+          "question_text": "Interpret the model in Example 2, in case 3 4 010 15 6A = , B 7 9 310 20 05 12 7    =        and the available raw materials are 330 units of R1, 455 units of R2 and 140 units of R3.",
+          "question_type": "Problem-solving / Interpretation",
+          "subject_topic": "Matrix Algebra, Mathematical Modeling, Business Applications, Resource Management",
+          "difficulty_level": "Intermediate",
+          "context": "This question is presented as 'Example 3' on page 5, requiring the interpretation of a mathematical model with specific matrix values and raw material availability."
+        },
+        {
+          "question_text": "Can we make a mathematical model with a given B and with fixed quantities of the available raw material that can help the firm owner to ask the clients to modify their orders in such a way that the firm makes the full use of its available raw material?",
+          "question_type": "Conceptual / Problem-solving",
+          "subject_topic": "Mathematical Modeling, Optimization, Resource Allocation, Business Strategy",
+          "difficulty_level": "Advanced",
+          "context": "This question is explicitly stated as a 'Query' on page 6, preceding 'Example 4', which provides the answer to this query."
+        },
+        {
+          "question_text": "How many units of each product is to be made so as to utilise the full available raw material?",
+          "question_type": "Problem-solving",
+          "subject_topic": "Linear Equations, Matrix Algebra, Resource Allocation, Mathematical Modeling",
+          "difficulty_level": "Intermediate",
+          "context": "This question is the core problem posed within 'Example 4' on page 6, which then proceeds to provide a step-by-step solution."
+        },
+        {
+          "question_text": "How should the manufacturer schedule his/her production in order to maximise profit?",
+          "question_type": "Problem-solving / Optimization",
+          "subject_topic": "Linear Programming, Optimization, Business Production Planning, Mathematical Modeling",
+          "difficulty_level": "Advanced",
+          "context": "This question is the central problem presented in 'Example 5' on page 7, which is then solved using linear programming principles."
+        }
+      ],
+      "summary": "The provided text, spanning pages 5-7, focuses on mathematical modeling applications, primarily using matrix algebra and linear programming to solve business-related problems. It includes examples demonstrating how to interpret models, optimize resource allocation, and maximize profit under given constraints. The content presents specific scenarios as problems to be solved, often followed by detailed solutions.",
+      "total_questions_found": 4,
+      "window_id": 6,
+      "focus_page": 6,
+      "page_range": "5-7",
+      "total_pages_in_window": 3
+    },
+    {
+      "questions": [
+        {
+          "question_text": "Can we make a mathematical model with a given B and with fixed quantities of the available raw material that can help the firm owner to ask the clients to modify their orders in such a way that the firm makes the full use of its available raw material?",
+          "question_type": "Conceptual Problem-Solving",
+          "subject_topic": "Mathematical Modelling, Resource Optimization",
+          "difficulty_level": "Intermediate",
+          "context": "Appears as a 'Query' after a discussion about raw material utilization and before Example 4."
+        },
+        {
+          "question_text": "How many units of each product is to be made so as to utilise the full available raw material?",
+          "question_type": "Problem-Solving",
+          "subject_topic": "Mathematical Modelling, Linear Algebra, Resource Optimization",
+          "difficulty_level": "Intermediate",
+          "context": "Part of Example 4, which provides a matrix B and raw material quantities for product manufacturing."
+        },
+        {
+          "question_text": "How should the manufacturer schedule his/her production in order to maximise profit?",
+          "question_type": "Problem-Solving",
+          "subject_topic": "Mathematical Modelling, Linear Programming, Optimization",
+          "difficulty_level": "Intermediate",
+          "context": "Part of Example 5, describing a medicine production scenario with raw material, bottle, and time constraints, and profit per bottle."
+        },
+        {
+          "question_text": "Prepare a mathematical model to examine the profitability.",
+          "question_type": "Model Formulation / Problem-Solving",
+          "subject_topic": "Mathematical Modelling, Business Economics, Profitability Analysis",
+          "difficulty_level": "Intermediate",
+          "context": "Part of Example 6, where a company plans to produce a new product with fixed and variable costs and a fixed selling price."
+        }
+      ],
+      "summary": "The text discusses mathematical modelling applications, specifically focusing on resource optimization and profit maximization problems. It presents several examples (Example 4, 5, and 6) that involve setting up and solving mathematical models, often using linear algebra or linear programming concepts. The questions extracted are primarily problem-solving tasks that require the application of mathematical modelling principles.",
+      "total_questions_found": 4,
+      "window_id": 7,
+      "focus_page": 7,
+      "page_range": "6-8",
+      "total_pages_in_window": 3
+    },
+    {
+      "questions": [
+        {
+          "question_text": "How should the manufacturer schedule his/her production in order to maximise profit?",
+          "question_type": "Problem-solving",
+          "subject_topic": "Mathematical Modelling, Linear Programming, Optimization, Production Planning",
+          "difficulty_level": "Intermediate",
+          "context": "This question is part of Example 5, which describes a scenario for a medicine manufacturer planning production of M1 and M2 to maximize profit given raw material, bottle, and time constraints."
+        },
+        {
+          "question_text": "Prepare a mathematical model to examine the profitability.",
+          "question_type": "Model Formulation",
+          "subject_topic": "Mathematical Modelling, Business/Economics, Cost-Profit Analysis",
+          "difficulty_level": "Intermediate",
+          "context": "This instruction is part of Example 6, where a company plans to produce a new product with fixed and variable costs and a fixed selling price, and the task is to model its profitability."
+        }
+      ],
+      "summary": "The provided text from pages 7-9 of a mathematics document focuses on mathematical modelling through examples. It includes the continuation of a solution for a production planning problem (Example 4), followed by two new examples (Example 5 and Example 6). Example 5 presents a linear programming problem for a medicine manufacturer to maximize profit, while Example 6 asks for the formulation of a mathematical model to analyze product profitability based on fixed costs, variable costs, and selling price.",
+      "total_questions_found": 2,
+      "window_id": 8,
+      "focus_page": 8,
+      "page_range": "7-9",
+      "total_pages_in_window": 3
+    },
+    {
+      "questions": [
+        {
+          "question_text": "Prepare a mathematical model to examine the profitability .",
+          "question_type": "Problem-solving",
+          "subject_topic": "Mathematical Modelling, Business/Economics (Profitability)",
+          "difficulty_level": "Intermediate",
+          "context": "Page 8, Example 6 problem statement, asking to create a mathematical model for profitability."
+        },
+        {
+          "question_text": "What would be the amount of salt in the tank at any time t?",
+          "question_type": "Problem-solving",
+          "subject_topic": "Mathematical Modelling, Differential Equations, Mixture Problems",
+          "difficulty_level": "Advanced",
+          "context": "Page 10, Example 7 problem statement, asking to find the amount of salt in a tank over time."
+        },
+        {
+          "question_text": "Why?",
+          "question_type": "Short answer",
+          "subject_topic": "Mathematical Modelling, Differential Equations",
+          "difficulty_level": "Intermediate",
+          "context": "Page 10, within the solution for Example 7, asking for justification of the differential equation dy/dt = 5 - y/40."
+        }
+      ],
+      "summary": "The text provides examples of mathematical modelling problems. The first example (Example 6) focuses on preparing a model for business profitability, detailing fixed and variable costs, income, and profit. The second example (Example 7) deals with a mixture problem involving salt concentration in a tank, leading to the formulation of a differential equation. The text includes problem statements that act as questions and one explicit 'Why?' question within a solution step.",
+      "total_questions_found": 3,
+      "window_id": 9,
+      "focus_page": 9,
+      "page_range": "8-10",
+      "total_pages_in_window": 3
+    },
+    {
+      "questions": [
+        {
+          "question_text": "What would be the amount of salt in the tank at any time t?",
+          "question_type": "Problem-solving",
+          "subject_topic": "Mathematical Modelling; Differential Equations; Mixture Problems",
+          "difficulty_level": "Intermediate",
+          "context": "This question is the core problem statement for Example 7, which describes a brine tank with inflow and outflow, asking for the amount of salt at any given time t. (Page 10)"
+        },
+        {
+          "question_text": "Why?",
+          "question_type": "Short answer; Explanation",
+          "subject_topic": "Mathematical Modelling; Differential Equations",
+          "difficulty_level": "Intermediate",
+          "context": "This implicit question appears immediately after the presentation of the differential equation dy/dt = 5 - y/40, prompting the reader to explain its derivation. (Page 10)"
+        }
+      ],
+      "summary": "The provided text from pages 9-11 details the process of mathematical modelling, starting with a general model for profit calculation (fixed and variable costs) and then presenting a specific example (Example 7) of modelling a brine tank problem using differential equations. It covers the formulation, solution, and interpretation of the model, and briefly discusses the limitations of mathematical modelling. Two questions were identified, both related to the brine tank example.",
+      "total_questions_found": 2,
+      "window_id": 10,
+      "focus_page": 10,
+      "page_range": "9-11",
+      "total_pages_in_window": 3
+    },
+    {
+      "questions": [
+        {
+          "question_text": "What would be the amount of salt in the tank at any time t?",
+          "question_type": "problem-solving",
+          "subject_topic": "Mathematical Modelling, Differential Equations, Mixture Problems",
+          "difficulty_level": "intermediate",
+          "context": "This question is the core problem statement for Example 7, which describes a tank containing brine with salt, and asks to determine the amount of salt at any given time t after inflow and outflow begin."
+        },
+        {
+          "question_text": "Why?",
+          "question_type": "short answer",
+          "subject_topic": "Mathematical Modelling, Differential Equations (Derivation)",
+          "difficulty_level": "beginner",
+          "context": "This question appears in parentheses after the equation dy/dt = 5 - y/40, prompting the reader to understand the derivation of this differential equation based on the inflow and outflow rates of salt."
+        }
+      ],
+      "summary": "The provided text from pages 10-12 discusses mathematical modelling. It presents a detailed example (Example 7) of a mixture problem involving salt in a tank, demonstrating how to set up and solve a differential equation to model the amount of salt over time. The solution steps are elaborated. Following the example, the text delves into the limitations of mathematical modelling, discussing challenges such as the complexity of situations, mathematical intractability, and difficulties in choosing and estimating parameters. It also acknowledges the role of powerful computers in advancing the field.",
+      "total_questions_found": 2,
+      "window_id": 11,
+      "focus_page": 11,
+      "page_range": "10-12",
+      "total_pages_in_window": 3
+    },
+    {
+      "questions": [],
+      "summary": "The provided text, spanning pages 11-12, details the final steps (Step 3 and Step 4) of a mathematical modeling problem concerning the amount of salt in a tank over time. It presents the derivation and solution of a linear differential equation, leading to expressions for salt content (y) as a function of time (t) and vice versa. The text then transitions to a discussion on the 'Limitations of Mathematical Modelling,' explaining why some situations are difficult to model due to complexity or mathematical intractability. It also highlights the role of powerful computers in enabling more realistic models and addresses challenges in choosing and estimating model parameters, particularly in large or complex scenarios like environmental or oceanographic studies.",
+      "total_questions_found": 0,
+      "window_id": 12,
+      "focus_page": 12,
+      "page_range": "11-12",
+      "total_pages_in_window": 2
+    }
+  ],
+  "summary_stats": {
+    "total_questions_found": 57,
+    "questions_by_type": {
+      "Conceptual/Explanatory": 1,
+      "Problem-solving": 8,
+      "Problem-solving/Conceptual": 2,
+      "Explanatory/Conceptual": 1,
+      "Problem-solving/Estimation": 5,
+      "Guiding/Conceptual": 2,
+      "Implicit question (conceptual/introductory)": 1,
+      "Problem-solving (example problem)": 8,
+      "Explicit question (conceptual/reasoning)": 1,
+      "Practice problem/Exercise (implied instruction to solve the listed problems i-ix)": 1,
+      "Problem-solving (example problem with solution provided)": 1,
+      "Short answer/Conceptual": 1,
+      "Problem-solving/Calculation": 1,
+      "Problem-solving/Estimation/Prediction": 1,
+      "Conceptual/Instruction": 2,
+      "Problem-solving/Application": 1,
+      "Problem-solving/Modelling/Application": 1,
+      "problem-solving": 2,
+      "problem-solving, modelling": 1,
+      "problem-solving, interpretation": 1,
+      "Problem-solving / Model formulation": 1,
+      "Problem-solving / Interpretation / Analysis": 1,
+      "Conceptual / Model design": 1,
+      "Problem-solving / System of equations": 1,
+      "Problem-solving / Interpretation": 1,
+      "Conceptual / Problem-solving": 1,
+      "Problem-solving / Optimization": 1,
+      "Conceptual Problem-Solving": 1,
+      "Problem-Solving": 2,
+      "Model Formulation / Problem-Solving": 1,
+      "Model Formulation": 1,
+      "Short answer": 1,
+      "Short answer; Explanation": 1,
+      "short answer": 1
+    },
+    "questions_by_difficulty": {
+      "Beginner": 7,
+      "Intermediate": 30,
+      "Advanced": 12,
+      "Intermediate to Advanced": 2,
+      "Beginner/Intermediate": 1,
+      "intermediate": 4,
+      "beginner": 1
+    }
+  },
+  "processing_started": "2025-07-15T18:35:28.400534",
+  "processing_completed": "2025-07-15T18:37:23.458820"
+}
